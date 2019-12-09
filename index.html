@@ -7,6 +7,10 @@
     <title>Portfolio | Matthew Rule </title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="main.js">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
      <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148606439-1"></script>
@@ -19,21 +23,23 @@
 </head>
 
   <body>
-    <section class="container">
-     <nav class="nav_header">
-       <!-- put logo here -->
-       <a href="index.html">
-       <img src="images/MR.jpg" alt="logo"
-       style="width:75px;height:75px;">
-       </a>
+    <!-- put logo here -->
+    <a href="index.html">
+    <img src="images/MR.jpg" alt="logo"
+    style="width:75px;height:75px;">
+</a>
+
+<div class="topnav" id="myTopnav">
        <ul>
         <li><a href="work.html">Work</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </section>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+          </a>
+        </ul>
+    </div>
   <!-- hero image and quote -->
   <section class="hero_banner">
     <div class="videoWrapper">
