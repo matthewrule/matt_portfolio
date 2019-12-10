@@ -26,32 +26,37 @@
 }
 h1 {
   color: Black;
-  font-family: 'Nobile', sans-serif;
-  font-size: 2.8em;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 3.4em;
+  font-weight: bold;
   text-align: center;
-  padding-left: 9.5%;
+  width: 100%;
+  padding-left: 15%;
 }
 p {
   color: Black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
   line-height: 1.7rem;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 15%;
+  width: 100%;
 }
 .shell {
   background-color: white;
   float: left;
   display: block;
-  border-color: Black;
-  padding-left: 9.5%;
+  height: 100px;
+  padding-left: 10%;
 
 }
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: White;
   overflow: hidden;
-  height: 75px;
+  height: 100px;
+  width: 90%;
 }
 
 /* Style the links inside the navigation bar */
@@ -63,7 +68,7 @@ p {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  line-height:50px;
+  line-height:75px;
 }
 
 /* Change the color of links on hover */
