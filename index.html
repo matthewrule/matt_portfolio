@@ -5,59 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Portfolio | Matthew Rule </title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="javascript" href="main.js">
+    <script src"js/main.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="https://use.fontawesome.com/37471687aa.js"></script>
+      <script src="https://use.fontawesome.com/37471687aa.js"></script>
      <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148606439-1"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-     gtag('config', 'UA-148606439-1');
-   </script>
-</head>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148606439-1"></script>
+     <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-148606439-1');
+      </script>
+    </head>
 
   <body>
+    <div class="container">
+
     <!-- put logo here -->
-<nav class="topnav" id="myTopnav">
-  <div class="shell">
-    <a href="index.html">
-    <img src="images/MR.jpg" alt="logo"
-    style="width:75px;height:75px;">
-    </a>
-  </div>
-       <ul>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-          </a>
-        </ul>
-      </nav>
-    </div>
+      <div class="logo">
+        <a href="index.html" class="active">
+          <img src="images/MR.jpg" alt="logo" style="width:75px;height:75px;"></a>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
   <!-- hero video and quote -->
-  <section class="hero_banner">
-    <div class="videoWrapper">
+
+  <section class="videoWrapper">
        <video playsinline autoplay loop muted>
          <source src="images/HeroVideo.mov" type="video/mp4">
          <source src="images/HeroVideo.ogg" type="video/ogg">
          <source src="images/HeroVideo.flv" type="video/flv">
             Your browser does not support the video tag.
-         </video>
+        </video>
          <div class="overlay-desc">
-           <h1> Matthew Rule // UX Designer </h1>
+           <h1> Matthew Rule  UX Designer </h1>
            <p>Avid coffee drinker who enjoys a collaborative design process focused on
              creating an effective, simple, creative, user experience.</p>
-       </div>
-     </div>
+        </div>
   </section>
+
   <!-- Likes and Dislikes -->
-  <section class="quick_facts">
+
+  <section class="quickfacts_container">
     <div class="likes">
       <h2> Quick Facts </h2>
       <h3> Likes </h3>
@@ -77,21 +78,16 @@
       </ul>
     </div>
   </section>
-     <div class="container">
-       <div class="alignhero">
-         <h2>Introduce yourself here</h2>
-         <h3>Where are you from and what do you do?</h3>
-       </div>
-     </div>
-   </section>
 
    <!-- list of projects here -->
-   <section class="container">
+
+   <section class="project">
      <div class="project1">
        <h1>CloudNebula</h1>
        <p>"More than just a cloud"</p>
      </div>
    </section>
+
      <!-- place contact information here -->
     <footer>
       <ul>
