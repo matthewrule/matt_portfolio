@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
 *{
   border-sizing: border-box;
 }
@@ -22,9 +24,127 @@ body{
   width: 100%;
 }
 
+/* new nav bar*/
+.navigation {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5AB9EA;
+    box-shadow: 0 4px 4px -3px #232323;
+    -moz-box-shadow: 0 4px 4px -3px #232323;
+    -webkit-box-shadow: 0 4px 4px -3px #232323;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    padding-top: 0px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation ul {
+    margin-top:30px;
+    text-align:center;
+    list-style:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+.menulist {
+    width:200px;
+}
+.logo {
+    text-align:center;
+    margin:0 auto;
+}
+
+.line1, .line2, .line3 {
+  margin-top:5px;
+  background-color:#fff;
+  width:25px;
+  height:3px;
+  display:block;
+  position:relative;
+  opacity:1.0;
+  border-radius:15%;
+  transition: all .3s;
+}
+
+.line1.active {
+  transform: rotate(270deg);
+  opacity:0.0;
+  background-color:yellow;
+  top:5px;
+}
+
+.line2.active {
+  transform: rotate(45deg);
+  background-color:yellow;
+}
+
+.line3.active {
+  transform: rotate(-45deg);
+  background-color:yellow;
+  top:-7px;
+}
+
+.menuitems {
+    padding-top:12px;
+    padding-bottom:12px;
+    text-decoration: none;
+    list-style:none;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    display: inline-block;
+    position:relative;
+    text-align:center;
+    color: #fff;
+    opacity:0.0;
+    transition: all .5s ease-in-out;
+}
+
+.menuitems:after {
+  content:'';
+  display:block;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width .2s;
+}
+
+.menuitems:hover::after {
+    width:100%;
+}
+
+#closebtn {
+    height:25px;
+    width:25px;
+    position: absolute;
+    text-decoration:none;
+    top: 10px;
+    left: 25px;
+    font-size: 36px !important;
+    margin-right: 50px;
+    z-index:100;
+    color:#fff;
+    cursor:pointer;
+    trainsition:background-position .3s;
+}
+
+#main {
+    transition: margin-top .4s;
+    text-align:center;
+    margin:auto;
+    padding: 16px;
+    font-size:30px;
+}
+
 .videoWrapper {
     background-color: white;
     grid-area: videoWrapper;
+    display: block;
     padding: 1rem 0;
      position: relative;
      padding-bottom: 45%; /* 16:9 Aspect Ratio */
@@ -70,63 +190,17 @@ p {
   background-color: white;
   float: left;
   height: 10rem;
-  width: 56%
+  width: 56%;
 
 }
 /* logo component */
-.logo{
-  float: left;
-  padding-left: 9%;
-}
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color:#333;
-  overflow: hidden;
-  grid-area: topnav;
-  background-color: White;
-  overflow: hidden;
-  line-height: 75px;
-  height: 100px;
-  padding-right: 9%;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-  font-family: 'Titillium Web', sans-serif;
+.logo_mr{
   display: block;
-  color: Black;
-  text-align: center;
-  padding: 15px 10px;
-  text-decoration: none;
-  font-size: 2em;
-  line-height:100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.5%;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: blue;
-}
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: #5AB9EA;
-  color: white;
-}
-/* Hide the link that should open and close the topnav on small screens */
-
-.topnav .icon {
-  display: none;
-}
-/* When the screen is less than 600 pixels wide, hide all links, except for
-the first one ("Home"). Show the link that contains should open and close the
-topnav (.icon) */
-@media screen and (max-width: 720px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
 /* The "responsive" class is added to the topnav with JavaScript when the user
 clicks on the icon. This class makes the topnav look good on small screens
