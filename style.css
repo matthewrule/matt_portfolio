@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
 
-*{
-  border-sizing: border-box;
 }
 html{
   font-size: 10px;
@@ -16,6 +17,11 @@ body{
   "quickfacts_container"
   "project";
   display: block;
+}
+
+@media (max-width: 767px) {
+	body {font-size: 16px;
+    }
 }
 
 .container{
@@ -55,8 +61,9 @@ body{
     width:200px;
 }
 .logo {
-    text-align:center;
-    margin:0 auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .line1, .line2, .line3 {
@@ -94,7 +101,7 @@ body{
     padding-bottom:12px;
     text-decoration: none;
     list-style:none;
-    font-family: "Lato", sans-serif;
+    font-family:'Titillium Web', sans-serif;
     font-weight: 300;
     font-size: 24px;
     display: inline-block;
@@ -121,7 +128,8 @@ body{
 #closebtn {
     height:25px;
     width:25px;
-    position: absolute;
+    float: right;
+    padding: 20px;
     text-decoration:none;
     top: 10px;
     left: 25px;
@@ -141,6 +149,7 @@ body{
     font-size:30px;
 }
 
+/* Hero Video */
 .videoWrapper {
     background-color: white;
     grid-area: videoWrapper;
@@ -167,6 +176,7 @@ body{
   align-items: center;
   justify-content: center;
 }
+/* Hero Video Text Overlay */
 h1 {
   color: Black;
   font-family: 'League Spartan', sans-serif;
@@ -176,6 +186,11 @@ h1 {
   width: 100%;
   padding-left: 15%;
 }
+
+@media (max-width: 767px) {
+	h1 { font-size: 1em; }
+}
+
 p {
   color: Black;
   font-family: 'Titillium Web', sans-serif;
@@ -186,6 +201,12 @@ p {
   padding-right: 15%;
   width: 100%;
 }
+
+@media (max-width: 767px) {
+	p { font-size: .5em;
+      line-height: .5rem}
+}
+
 .shell {
   background-color: white;
   float: left;
@@ -195,29 +216,21 @@ p {
 }
 /* logo component */
 .logo_mr{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 2.5%;
+  height:25px;
+  width:25px;
+  float: left;
+  padding: 20px;
+  top: 10px;
+  left: 25px;
+  margin-left: 50px;
+  z-index:100;
 }
 
-
-/* The "responsive" class is added to the topnav with JavaScript when the user
-clicks on the icon. This class makes the topnav look good on small screens
-(display the links vertically instead of horizontally) */
-@media screen and (max-width: 720px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+@media (max-width: 767px) {
+	 { display: block;
+   margin: auto}
 }
+
 
 /* quick facts */
 .quickfacts_container{
@@ -226,7 +239,7 @@ clicks on the icon. This class makes the topnav look good on small screens
   grid-area: quickfacts_container;
   padding-left: 10%;
   padding-right: 10%;
-  width: 60%;
+  width: 100%;
 }
 
 /* project section */

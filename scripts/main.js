@@ -1,14 +1,14 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the
-user clicks on the icon */
+
 var nav = document.getElementById("topNav");
 var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
 var close = document.getElementById("closebtn");
 
+
 //default to measure if/else from
-nav.style.height = "50px";
-main.style.marginTop = "50px";
-for (i = 0; i < menu.length; i++){menu[i].style.marginTop="100px";};
+nav.style.height = "75px";
+main.style.marginTop = "75px";
+for (i = 0; i < menu.length; i++){menu[i].style.marginTop="150px";};
 
 close.addEventListener("click", function(){
   var menuIcon = close.children;
@@ -19,9 +19,9 @@ close.addEventListener("click", function(){
 
 function navToggle() {
 	//to close
-	if (nav.style.height <= "275px") {
-	nav.style.height = "50px";
-	main.style.marginTop = "50px";
+	if (nav.style.height <= "325px") {
+	nav.style.height = "75px";
+	main.style.marginTop = "75px";
 
     	var i = 0;
     	for (i = 0; i < menu.length; i++){
@@ -32,16 +32,14 @@ function navToggle() {
 
 	}
 	//to open
-	else if (nav.style.height <= "50px") {
-	nav.style.height = "275px";
-	main.style.marginTop = "275px";
+	else if (nav.style.height <= "75px") {
+	nav.style.height = "325px";
+	main.style.marginTop = "325px";
     	var i = 0;
     	for (i = 0; i < menu.length; i++){
 	menu[i].style.opacity="1.0";
 	menu[i].style.marginTop="0px";
 	};
     	document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-
-	}
-
+    }
 };
