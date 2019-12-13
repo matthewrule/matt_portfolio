@@ -277,6 +277,29 @@ p {
   -moz-box-shadow: 0 4px 4px -3px #232323;
   -webkit-box-shadow: 0 4px 4px -3px #232323;
 }
+
+/* About Section CSS */
+.about_container{
+  background-color: white;
+}
+.flex_bio_container{
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: normal;
+  font-size: 1.4em;
+  justify-content: center;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two
+columns stack on top of each other instead of next to each other */
+@media (max-width: 600px){
+  .flex_bio_container {
+    display: block;
+  }
+}
 /* Contact Form Gradient */
 body {
 	margin: 0;
