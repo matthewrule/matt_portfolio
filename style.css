@@ -194,6 +194,17 @@ h1 {
 	h1 { font-size: 1em; }
 }
 
+h2 {
+  color: Black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.7rem;
+  padding-left: 5%;
+  padding-right: 15%;
+  width: 100%;
+}
+
 p {
   color: Black;
   font-family: 'Titillium Web', sans-serif;
@@ -206,7 +217,7 @@ p {
 }
 
 @media (max-width: 767px) {
-	p { font-size: .5em;
+	h2 { font-size: .5em;
       line-height: .5rem}
 }
 
