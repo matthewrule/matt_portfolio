@@ -289,9 +289,9 @@ p {
     display: block;
 }
 
-@media (max-width: 40em) {
+@media (min-width: 600px) {
   main{
-    width: 80%;
+    width: 75%;
   }
 }
 
