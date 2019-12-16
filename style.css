@@ -343,6 +343,26 @@ columns stack on top of each other instead of next to each other */
     font-size: 1.6;
   }
 }
+
+/* Resume Section Styling */
+.headshot_illustration img {
+    width: 35%;
+    padding-left: 50px;
+    display: flex;
+    float: left;
+}
+
+.resume_column {
+  padding: 20px;
+  flex: 50%;
+  font-weight: 1.4em;
+  width: 90%;
+  margin: auto;
+}
+
+p{
+  font-weight: bold;
+}
 /* Contact Form Gradient */
 .container_contact {
 	margin: 0;
