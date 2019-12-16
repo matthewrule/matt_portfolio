@@ -27,9 +27,13 @@ body{
 }
 
 .index_container{
-  background-color: white;
+  background-color: #B4B4B4;
   height:auto;
   width: 100%;
+}
+
+.fa-events-icons-ready {
+  background-color: #B4B4B4;
 }
 
 /* new nav bar*/
@@ -39,7 +43,7 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #5AB9EA;
+    background-color: #504f51;
     box-shadow: 0 4px 4px -3px #232323;
     -moz-box-shadow: 0 4px 4px -3px #232323;
     -webkit-box-shadow: 0 4px 4px -3px #232323;
@@ -144,27 +148,28 @@ body{
 }
 
 #main {
-    background-color: #white;
+    background-color: #B4B4B4;
     transition: margin-top .4s;
     text-align:center;
     margin:auto;
-    padding: 16px;
+    padding: .1px;
     font-size:30px;
 }
 
 /* Hero Video */
 .videoWrapper {
-    background-color: white;
+    background-color: #B4B4B4;
     grid-area: videoWrapper;
     display: block;
     padding: 1rem 0;
      position: relative;
      padding-bottom: 45%; /* 16:9 Aspect Ratio */
      height: 0;
-     ​width: 100%; /* You can set this width to whatever suits your needs */
+     ​width: 90%; /* You can set this width to whatever suits your needs */
      margin: 0 auto;
 }
 .videoWrapper video {
+    background-color: #B4B4B4;
      position: absolute;
      top: 0;
      left: 0;
@@ -172,10 +177,13 @@ body{
      height: 100%;
 }
 .overlay-desc {
+  background-color: #B4B4B4;
+  margin: 0;
   background: rgba(0,0,0,0);
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
+  padding-top: 1%;
   align-items: center;
   justify-content: center;
 }
@@ -249,38 +257,41 @@ p {
 /* quick facts */
 .quickfacts_container{
   display: grid;
-  margin-top: 1em;
+  margin-top: 2.5em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #5aea8b;
+  background-color: #504f51;
   grid-area: quickfacts_container;
   padding-left: 10%;
   padding-right: 10%;
-  width: 90%;
+  width: 100%;
   box-shadow: 0 4px 4px -3px #232323;
   -moz-box-shadow: 0 4px 4px -3px #232323;
   -webkit-box-shadow: 0 4px 4px -3px #232323;
+}
+.quickfacts_container h2{
+  font-size: 1.4em;
+  display: grid;
+  color: white;
 }
 
 /* project section */
 .projects{
+  background-color: #504f51;
   display: grid;
+  margin-top: .5em;
   margin-bottom: 1em;
-  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ea8b5a;
   grid-area: projects;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 5%;
-  width: 90%;
+  padding-bottom: 1%;
+  width: 100%;
   box-shadow: 0 4px 4px -3px #232323;
   -moz-box-shadow: 0 4px 4px -3px #232323;
   -webkit-box-shadow: 0 4px 4px -3px #232323;
-
 }
-
 /* About Section CSS */
 
 /* Responsive IMG CSS */
@@ -303,7 +314,7 @@ h6{
   font-weight: 600;
 }
 .about_container{
-  background-color: white;
+  background-color: #B4B4B4;
 }
 
 .about_row{
@@ -347,12 +358,16 @@ columns stack on top of each other instead of next to each other */
 /* Resume Section Styling */
 .headshot_illustration img {
     width: 35%;
-    display: flex;
+    display: block;
     float: left;
-    padding: 50px;
+    padding-top: 2em;
+    padding-left: 20px;
 }
-
+.resume_container {
+  background-color: #B4B4B4;
+}
 .resume_column {
+  background-color: #B4B4B4;
   padding: 20px;
   flex: 50%;
   font-weight: 1.4em;
@@ -407,14 +422,13 @@ columns stack on top of each other instead of next to each other */
   color: black;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.3em;
-  font-weight: 100;
+  font-weight: 400;
   width: 100%;
 }
 }
 @media (max-width: 600px){
   .flex_resume_container {
     display: block;
-    font-weight: normal;
     padding: 1%;
     font-size: 1em;
   }
@@ -423,11 +437,11 @@ columns stack on top of each other instead of next to each other */
 .container_contact {
 	margin: 0;
 	width: 100%;
-	height: 100vh;
+	height: 150vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #B4B4B4, #bbbcbd, #7494A5, #504f51);
 	background-size: 400% 400%;
-	animation: gradientBG 30s ease infinite;
+	animation: gradientBG 15s ease infinite;
 }
 
 @keyframes gradientBG {
@@ -485,7 +499,7 @@ body {
 }
 
 #contact {
-  background: #5AB9EA;
+  background: #504f51;
   padding: 25px;
   margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -544,7 +558,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #4CAF50;
+  background: #5AB9EA;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -587,10 +601,10 @@ fieldset {
 /* Footer Icon */
 
 .social_media {
-  background-color: white;
+  background-color: #504f51;
   width: 100%;
   display: inline-block;
   text-align: center;
-  position:absolute;
-  padding-top: 5%;
+  position: absolute;
+  padding-top: 1%;
 }
