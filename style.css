@@ -144,6 +144,7 @@ body{
 }
 
 #main {
+    background-color: #white;
     transition: margin-top .4s;
     text-align:center;
     margin:auto;
@@ -248,10 +249,10 @@ p {
 /* quick facts */
 .quickfacts_container{
   display: grid;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #5AB9EA;
+  background-color: #5aea8b;
   grid-area: quickfacts_container;
   padding-left: 10%;
   padding-right: 10%;
@@ -264,17 +265,20 @@ p {
 /* project section */
 .projects{
   display: grid;
-  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #5AB9EA;
+  background-color: #ea8b5a;
   grid-area: projects;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 5%;
   width: 90%;
   box-shadow: 0 4px 4px -3px #232323;
   -moz-box-shadow: 0 4px 4px -3px #232323;
   -webkit-box-shadow: 0 4px 4px -3px #232323;
+
 }
 
 /* About Section CSS */
@@ -504,5 +508,5 @@ fieldset {
   display: inline-block;
   text-align: center;
   position:absolute;
-  padding-top: 10%;
+  padding-top: 5%;
 }
