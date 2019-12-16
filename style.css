@@ -360,8 +360,25 @@ columns stack on top of each other instead of next to each other */
   margin: auto;
 }
 
+.flex_resume_container h2{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  width: 100%;
+
+}
 p{
-  font-weight: bold;
+  display: inline-block;
+  width: 60%;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+.section span {
+  display: inline-block;
+  width: 60%;
+  font-weight: 300;
+  font-size: 1.6em;
+}
 }
 /* Contact Form Gradient */
 .container_contact {
