@@ -1,10 +1,11 @@
-<svg width="597" height="543" viewBox="0 0 597 543" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M409.811 537.63L409.811 283.333L505.379 537.63H409.811Z" fill="white" stroke="black" stroke-width="10"/>
-<path d="M591.87 260.815L591.87 515.112L496.302 260.815H591.87Z" fill="white" stroke="black" stroke-width="10"/>
-<path d="M38.4316 537.63L38.4317 268.275L296.099 537.63H38.4316Z" fill="white" stroke="black" stroke-width="10"/>
-<path d="M307.701 537.63L307.701 268.275L50.0336 537.63H307.701Z" fill="white" stroke="black" stroke-width="10"/>
-<path d="M592 119.059C592 146.191 564.738 169.796 528.916 169.796C493.093 169.796 465.832 146.191 465.832 119.059C465.832 91.9266 493.093 68.3218 528.916 68.3218C564.738 68.3218 592 91.9266 592 119.059Z" fill="white" stroke="black" stroke-width="10"/>
-<rect x="399.032" y="68.3218" width="124.456" height="101.474" fill="white" stroke="black" stroke-width="10"/>
-<path d="M316.192 69.1235L175.026 248.125L33.8598 69.1235L316.192 69.1235Z" fill="white" stroke="black" stroke-width="10"/>
-<rect x="508" y="72.9464" width="20.5777" height="92.3968" fill="white"/>
+<svg width="766" height="651" viewBox="0 0 766 651" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="10" width="746" height="631" fill="#5AB9EA" stroke="white" stroke-width="20"/>
+<path d="M465 552.815L465 298.518L560.568 552.815H465Z" fill="white" stroke="black" stroke-width="10"/>
+<path d="M667.788 292L667.788 546.297L572.22 292H667.788Z" fill="white" stroke="black" stroke-width="10"/>
+<path d="M98 552.815L98 283.46L355.668 552.815H98Z" fill="white" stroke="black" stroke-width="10"/>
+<path d="M362.37 552.815L362.37 283.46L104.703 552.815H362.37Z" fill="white" stroke="black" stroke-width="10"/>
+<path d="M668 152C668 165.975 659.943 179.126 646.514 188.981C633.109 198.82 614.78 205 595.5 205C586.042 205 579.085 203.055 573.898 199.972C568.732 196.902 564.985 192.504 562.251 187.029C556.654 175.817 555.5 160.525 555.5 144.5C555.5 136.496 555.655 129.641 556.463 123.779C557.27 117.928 558.685 113.434 560.954 109.987C565.216 103.514 573.743 99 593.5 99C612.791 99 631.65 105.188 645.58 115.066C659.557 124.978 668 138.132 668 152Z" fill="white" stroke="black" stroke-width="10"/>
+<rect x="464" y="99" width="124.456" height="106" fill="white" stroke="black" stroke-width="10"/>
+<path d="M371.077 100.025L229.911 279.027L88.7446 100.025L371.077 100.025Z" fill="white" stroke="black" stroke-width="10"/>
+<rect x="573" y="104" width="21" height="96" fill="white"/>
 </svg>

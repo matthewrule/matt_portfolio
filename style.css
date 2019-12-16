@@ -234,7 +234,7 @@ p {
   height:25px;
   width:25px;
   float: left;
-  padding: 20px;
+  padding-top: 20px;
   top: 10px;
   left: 25px;
   margin-left: 50px;
@@ -282,9 +282,17 @@ p {
 }
 
 /* About Section CSS */
-.image {
+
+/* Responsive IMG CSS */
+.illustration img {
     width: 100%;
-    height: auto;
+    display: block;
+}
+
+@media (max-width: 40em) {
+  main{
+    width: 80%;
+  }
 }
 
 h6{
