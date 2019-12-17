@@ -640,6 +640,11 @@ fieldset {
   position: absolute;
   padding-top: 1%;
 }
-.social_media span {
+.social_media h2 {
+  display: block;
+  padding-left: 5%;
+  padding-top: 10px;
+  position: absolute;
+  text-align: left;
   color: white;
 }
