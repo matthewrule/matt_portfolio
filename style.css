@@ -27,13 +27,13 @@ body{
 }
 
 .index_container{
-  background-color: #B4B4B4;
+  background-color: white;
   height:auto;
   width: 100%;
 }
 
 .fa-events-icons-ready {
-  background-color: #B4B4B4;
+  background-color: white;
 }
 
 /* new nav bar*/
@@ -43,7 +43,8 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #504f51;
+    color: black;
+    background-color: white;
     box-shadow: 0 4px 4px -3px #232323;
     -moz-box-shadow: 0 4px 4px -3px #232323;
     -webkit-box-shadow: 0 4px 4px -3px #232323;
@@ -54,10 +55,13 @@ body{
 
 .navigation a {
     text-decoration: none;
+    color: black;
+    font-style: Titillium
 }
 
 .navigation ul {
     margin-top:30px;
+    color: black;
     text-align:center;
     list-style:none;
     margin-left:auto;
@@ -65,6 +69,7 @@ body{
 }
 .menulist {
     width:200px;
+    color: #5AB9EA;
 }
 .logo {
     text-align: center;
@@ -74,7 +79,7 @@ body{
 
 .line1, .line2, .line3 {
   margin-top:5px;
-  background-color:#fff;
+  background-color:#5AB9EA;
   width:25px;
   height:3px;
   display:block;
@@ -87,18 +92,18 @@ body{
 .line1.active {
   transform: rotate(270deg);
   opacity:0.0;
-  background-color:yellow;
+  background-color:#5AB9EA;
   top:5px;
 }
 
 .line2.active {
   transform: rotate(45deg);
-  background-color:yellow;
+  background-color:#5AB9EA;
 }
 
 .line3.active {
   transform: rotate(-45deg);
-  background-color:yellow;
+  background-color:#5AB9EA;
   top:-7px;
 }
 
@@ -113,7 +118,7 @@ body{
     display: inline-block;
     position:relative;
     text-align:center;
-    color: #fff;
+    color: #5AB9EA;
     opacity:0.0;
     transition: all .5s ease-in-out;
 }
@@ -123,12 +128,13 @@ body{
   display:block;
   width: 0;
   height: 1px;
-  background: #fff;
+  background: #5AB9EA;
   transition: width .2s;
 }
 
 .menuitems:hover::after {
     width:100%;
+    background: #5AB9EA;
 }
 
 #closebtn {
@@ -148,7 +154,7 @@ body{
 }
 
 #main {
-    background-color: #B4B4B4;
+    background-color: white;
     transition: margin-top .4s;
     text-align:center;
     margin:auto;
@@ -158,7 +164,7 @@ body{
 
 /* Hero Video */
 .videoWrapper {
-    background-color: #B4B4B4;
+    background-color: white;
     grid-area: videoWrapper;
     display: block;
     padding: 1rem 0;
@@ -169,7 +175,7 @@ body{
      margin: 0 auto;
 }
 .videoWrapper video {
-    background-color: #B4B4B4;
+    background-color: white;
      position: absolute;
      top: 10;
      left: 0;
@@ -177,7 +183,7 @@ body{
      height: 100%;
 }
 .overlay-desc {
-  background-color: #B4B4B4;
+  background-color: white;
   margin: 0;
   background: rgba(0,0,0,0);
   position: absolute;
@@ -188,7 +194,7 @@ body{
   justify-content: center;
 }
 /* Hero Video Text Overlay */
-h1 {
+.overlay-desc h1 {
   color: Black;
   font-family: 'League Spartan', sans-serif;
   font-size: 3.4em;
@@ -200,10 +206,11 @@ h1 {
 }
 
 @media (max-width: 767px) {
-	h1 { font-size: 1em; }
+	.overlay-desc h1 { font-size: 1em; }
 }
 
 h2 {
+  text-align: left;
   color: Black;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.7rem;
@@ -239,14 +246,12 @@ p {
 
 /* logo component */
 .logo_mr{
-  height:25px;
-  width:25px;
+  display: inline-block;
   float: left;
-  padding-top: 20px;
-  top: 10px;
-  left: 25px;
-  margin-left: 50px;
-  z-index:100;
+  height:50px;
+  margin-left: 25px;
+  margin-top: 20px;
+  z-index:1;
 }
 
 @media (max-width: 767px) {
@@ -298,6 +303,20 @@ p {
 }
 .dislikes img{
   padding-right: 15%
+}
+@media (max-width: 700px) {
+  .grid{
+    grid-template-areas:
+    'likes'
+    'dislikes';
+  }
+}
+@media (max-width: 700px){
+  .likes img, .dislikes img{
+    text: .5em;
+    padding-right: 5%;
+    width: 15px;
+  }
 }
 h3{
   font-family: 'Titillium Web', sans-serif;
@@ -633,7 +652,7 @@ fieldset {
 /* Footer Icon */
 
 .social_media {
-  background-color: #504f51;
+  background-color: white;
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -646,5 +665,5 @@ fieldset {
   padding-top: 10px;
   position: absolute;
   text-align: left;
-  color: white;
+  color: #5AB9EA;
 }
