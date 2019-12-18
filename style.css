@@ -180,10 +180,11 @@ a {
 }
 
 /* logo component */
+
 .logo_mr{
   display: flex;
   float: left;
-  height:50px;
+  height: 50%;
   margin-left: 25px;
   margin-top: 15px;
 
@@ -223,12 +224,16 @@ a {
      width: 100%;
      height: 100%;
 }
+@media screen and (max-width: 300px) {
+  .videoWrapper video {top: 5em}
+}
+
 .overlay-desc {
   background-color: white;
   margin: 0;
   background: rgba(0,0,0,0);
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  right: 0; bottom: 0; left: 0;
   display: flex;
   padding-top: 5%;
   align-items: center;
@@ -247,11 +252,6 @@ a {
   padding-left: 15%;
 }
 
-@media (max-width: 767px) {
-	.overlay-desc h1 { font-size: 1em;
-  }
-}
-
 h2 {
   text-align: left;
   color: Black;
@@ -264,6 +264,10 @@ h2 {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+	.overlay-desc h1, h2{ font-size: 1em;
+  }
+}
 p {
   color: Black;
   font-family: 'Titillium Web', sans-serif;
