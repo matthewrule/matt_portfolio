@@ -50,7 +50,7 @@ a {
 .header {
   font-weight: bolder;
   background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 3px 3px 12px 0 rgba(0,0,0,.3);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -202,6 +202,7 @@ a {
 .video{
   padding-top: 30px;
 }
+
 .videoWrapper {
     background-color: white;
     grid-area: videoWrapper;
@@ -288,7 +289,7 @@ p {
 .projects{
   background-color: #5AB9EA;
   display: grid;
-  padding-top: 15em;
+  padding-top: 12em;
   padding-bottom: 1%;
   width: 100%;
   box-shadow: 0 4px 4px -3px #232323;
@@ -296,8 +297,31 @@ p {
   -webkit-box-shadow: 0 4px 4px -3px #232323;
 }
 
+.projects h2 {
+  display: inline-block;
+  text-align: left;
+  color: Black;
+  font-size: 1.7em;
+}
+
+.projects h4 {
+  display: inline-block;
+  text-align: left;
+  color: Black;
+  font-size: 1em;
+  padding-left: 5%;
+}
 .projects1{
   height: 275px;
+}
+/* WORK SECTION */
+
+.work_container{
+  padding-top: 10em;
+}
+.work_container h1 {
+  font-size: 2em;
+  font-style: "Titillium Web", sans-serif;
 }
 
 /* About Section CSS */
@@ -440,31 +464,6 @@ columns stack on top of each other instead of next to each other */
 }
 
 /* Contact Form Gradient */
-.container_contact {
-	height: 100vh;
-	color: #5ab9ea;
-  padding-top: 15em;
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
-  max-width: 400px;
-  background-color: white;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  }
-
-
-@keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 /* CONTACT FORM CSS */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
@@ -489,8 +488,14 @@ columns stack on top of each other instead of next to each other */
   color: #777;
   background: White;
 }
-
-
+.container_contact {
+	color: #5ab9ea;
+  padding-top: 5em;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  }
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -502,8 +507,8 @@ columns stack on top of each other instead of next to each other */
 }
 
 #contact {
-  background-color: #5ab9ea;
   background: #5ab9ea;
+  margin: 150px 0;
   padding: 25px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
@@ -538,8 +543,8 @@ fieldset {
 #contact input[type="url"],
 #contact textarea {
   width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
+  border: 1px solid #fff;
+  background: #5AB9EA;
   margin: 0 0 5px;
   padding: 10px;
 }
@@ -552,13 +557,14 @@ fieldset {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
+  border: 1px solid #FA6666;
 }
 
 #contact textarea {
   height: 100px;
   max-width: 100%;
   resize: none;
+  color: #fff;
 }
 
 #contact button[type="submit"] {
@@ -590,23 +596,23 @@ fieldset {
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
-  border: 1px solid #aaa;
+  border: 1px solid #FA6666;
 }
 
 ::-webkit-input-placeholder {
-  color: #888;
+  color: #fff;
 }
 
 :-moz-placeholder {
-  color: #888;
+  color: #fff;
 }
 
 ::-moz-placeholder {
-  color: #888;
+  color: #fff;
 }
 
 :-ms-input-placeholder {
-  color: #888;
+  color: #fff;
 }
 
 /* Footer Icon */
