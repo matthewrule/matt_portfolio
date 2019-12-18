@@ -179,9 +179,6 @@ a {
   }
 }
 
-.logo {
-  display: inline-block;
-}
 /* logo component */
 .logo_mr{
   display: flex;
@@ -192,9 +189,12 @@ a {
 
 }
 
-@media (max-width: 767px) {
-	 { display: block;
-   margin: auto}
+@media screen and (max-width: 767px) {
+  div.logo_mr
+	 { max-width: 50%;}
+   img.logoimage{
+     max-width: 75%;
+   }
 }
 
 /* Hero Video */
@@ -234,6 +234,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 /* Hero Video Text Overlay */
 .overlay-desc h1 {
   color: Black;
@@ -247,7 +248,8 @@ a {
 }
 
 @media (max-width: 767px) {
-	.overlay-desc h1 { font-size: 1em; }
+	.overlay-desc h1 { font-size: 1em;
+  }
 }
 
 h2 {
@@ -308,7 +310,9 @@ p {
     width: 75%;
   }
 }
-
+.about body{
+  background-color: white;
+}
 h6{
   display: block;
   color: Black;
@@ -441,12 +445,12 @@ columns stack on top of each other instead of next to each other */
 /* Contact Form Gradient */
 .container_contact {
 	height: 100vh;
-	color: #fff;
+	color: #5ab9ea;
   padding-top: 15em;
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
   max-width: 400px;
-  background-color: #5ab9ea;
+  background-color: white;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -480,13 +484,13 @@ columns stack on top of each other instead of next to each other */
   text-rendering: optimizeLegibility;
 }
 
-body {
+ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
   line-height: 30px;
   color: #777;
-  background: #5ab9ea;
+  background: White;
 }
 
 
@@ -501,7 +505,8 @@ body {
 }
 
 #contact {
-  background: #F9F9F9;
+  background-color: #5ab9ea;
+  background: #5ab9ea;
   padding: 25px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
@@ -509,14 +514,14 @@ body {
 #contact h3 {
   display: block;
   font-size: 30px;
-  font-weight: 300;
-  color: #5AB9EA;
+  font-weight: 600;
+  color: White;
   margin-bottom: 10px;
 }
 
 #contact h4 {
   margin: 5px 0 15px;
-  color: #5AB9EA;
+  color: White;
   display: block;
   font-size: 13px;
   font-weight: 400;
