@@ -30,31 +30,23 @@ toggle between hiding and showing the dropdown content */
   <body>
     <div class="index_container">
 <!-- Nav Bar -->
-    <div id="topNav" class="navigation">
-  <span id="closebtn" onclick="navToggle()">
-      <span class="line1"></span>
-      <span class="line2"></span>
-      <span class="line3"></span>
-  </span>
-    <!-- put logo here -->
-    <div class="logo">
-      <div class="logo_mr">
-        <a href="index.html" class="active">
-          <img src="images/MR.svg" alt="logo" style="width:45px;"></a>
-        </div>
+<header class="header">
+  <div class="logo">
+    <div class="logo_mr">
+      <a href="index.html" class="active">
+        <img src="images/MR.svg" alt="logo" style="width:45px;"></a>
       </div>
+    </div>
 
-<ul class="menulist">
-  <li><a class="menuitems" href="index.html">Home</a></li>
-  <li><a class="menuitems" href="work.html">Work</a></li>
-  <li><a class="menuitems" href="about.html">About</a></li>
-  <li><a class="menuitems" href="resume.html">Resume</a></li>
-  <li><a class="menuitems" href="contact.html">Contact</a></li>
-</ul>
-</div>
-
-<div id="main">
-</div>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+ <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+ <ul class="menu">
+   <li><a href="work.html">Work</a></li>
+   <li><a href="about.html">About</a></li>
+   <li><a href="resume.html">Resume</a></li>
+   <li><a href="contact.html">Contact</a></li>
+ </ul>
+</header>
 
   <section class="videoWrapper">
        <video playsinline autoplay loop muted>
@@ -70,41 +62,6 @@ toggle between hiding and showing the dropdown content */
         </div>
   </section>
 
-  <!-- Likes and Dislikes -->
-  <section class="quickfacts_container">
-    <div class="likes">
-      <h3> Likes </h3>
-      <ul>
-        <li> Coffee
-            <img src="images/coffee.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-        <li> Photography
-          <img src="images/camera.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-        <li> Surfing
-          <img src="images/surfing.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-        <li> Experiencing New Cultures
-          <img src="images/airplane.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-      </ul>
-    </div>
-    <div class="dislikes">
-      <h3> Dislikes </h3>
-      <ul>
-        <li> Jet Lag
-          <img src="images/sleep.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-        <li> Meat loaf... the food
-          <img src="images/meal.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-        <li> Man hole covers... long story
-          <img src="images/helmet.png" style="float:right;" alt="logo" style="width:25px;"></a>
-        </li>
-      </ul>
-    </div>
-  </section>
-
    <!-- list of projects here -->
 
    <section class="projects">
@@ -115,12 +72,22 @@ toggle between hiding and showing the dropdown content */
    </section>
      <!-- place contact information here -->
     <footer>
-<div class="social_media">
-  <h2> Let's Get in Touch </h2>
-  <a href="https://twitter.com/MatthewRule2"> <img src="images/twitter.png" alt="logo" style="width:50px;"></a>
-  <a href="https://www.instagram.com/matthewrule/"><img src="images/instagram.png" alt="logo" style="width:50px;"></a>
-  <a href="https://github.com/matthewrule"><img src="images/github.png" alt="logo" style="width:50px;"></a>
-  <a href="https://www.linkedin.com/in/matthewrule10/"><img src="images/linkedin.png" alt="logo" style="width:50px;"></a>
+<div class="social_media_container">
+  <div class="contact_quote">
+  <h3> Let's Get in Touch </h3>
+  <span> Thank you for stopping by, and I hope you enjoyed my work. If you want to
+    chat about UX or have any questions? Feel free to contact me.</span>
+</div>
+<div class="social_media"
+  <a href="https://twitter.com/MatthewRule2"> <img src="images/twitter.png" class="active" alt="logo" style="width:30px;"></a>
+  <a href="https://www.instagram.com/matthewrule/"><img src="images/instagram.png" class="active" alt="logo" style="width:30px;"></a>
+  <a href="https://github.com/matthewrule"><img src="images/github.png" alt="logo" class="active" style="width:30px;"></a>
+  <a href="https://www.linkedin.com/in/matthewrule10/"><img src="images/linkedin.png" class="active" alt="logo" style="width:30px;"></a>
+  <a href="mailto: matthewrule10@gmail.com"> <img src="images/gmail.png" class="active" alt="logo" style="width:30px;"></a>
+</div>
+</div>
+<div class="copyright">
+  <span>©2019 Matthew Rule | Designed and Developed by Matthew Rule </span>
 </div>
     </footer>
 </div>
