@@ -26,36 +26,23 @@ toggle between hiding and showing the dropdown content */
     </head>
 
   <body>
-    <div class="about_container">
-<!-- Nav Bar -->
-    <div id="topNav" class="navigation">
-      <span id="closebtn" onclick="navToggle()">
-      <span class="line1"></span>
-      <span class="line2"></span>
-      <span class="line3"></span>
-      </span>
-<div class="logo">
-  <img src=""/>
-  <!-- put logo here -->
-<div class="logo_mr">
-  <a href="index.html" class="active">
-    <img src="images/MR.svg" alt="logo" style="width:45px;"></a>
-</div>
-</div>
+    <header class="header">
+      <div class="logo">
+        <div class="logo_mr">
+          <a href="index.html" class="active">
+            <img src="images/MR.svg" alt="logo" style="width:75px;"></a>
+          </div>
+        </div>
 
-<ul class="menulist">
-  <li><a class="menuitems" href="index.html">Home</a></li>
-  <li><a class="menuitems" href="work.html">Work</a></li>
-  <li><a class="menuitems" href="about.html">About</a></li>
-  <li><a class="menuitems" href="resume.html">Resume</a></li>
-  <li><a class="menuitems" href="contact.html">Contact</a></li>
-</ul>
-</div>
-
-<div id="main">
-</div>
-  </section>
-<body>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+     <ul class="menu">
+       <li><a href="work.html">Work</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="resume.html">Resume</a></li>
+       <li><a href="contact.html">Contact</a></li>
+     </ul>
+    </header>
 
 <!-- Responsive IMG HTML -->
 <section class="image">
@@ -165,4 +152,4 @@ I messaged my friend, who was still in Bali and let him know that I was going
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="scripts/main.js"></script>
-  </body>
+</body>

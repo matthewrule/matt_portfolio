@@ -32,9 +32,6 @@ body{
   width: 100%;
 }
 
-.fa-events-icons-ready {
-  background-color: white;
-}
 .title h2{
   display: inline-block;
   text-align: center;
@@ -45,11 +42,13 @@ a {
   color: #5AB9EA;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.4em;
+  font-weight: bolder;
 }
 
 /* header */
 
 .header {
+  font-weight: bolder;
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
@@ -66,6 +65,7 @@ a {
 }
 
 .header li a {
+  font-weight: bolder;
   display: block;
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
@@ -198,21 +198,27 @@ a {
 }
 
 /* Hero Video */
+.video{
+  padding-top: 30px;
+}
 .videoWrapper {
     background-color: white;
     grid-area: videoWrapper;
-    display: block;
-    padding: 1rem 0;
-     position: relative;
-     padding-bottom: 45%; /* 16:9 Aspect Ratio */
-     height: 0;
-     ​width: 90%; /* You can set this width to whatever suits your needs */
-     margin: 0 auto;
+    display: grid;
+    padding-top: 20px;
+    padding: 4em 0;
+    position: relative;
+    padding-bottom: 45%; /* 16:9 Aspect Ratio */
+    padding-top: 3em;
+    height: 0;
+    ​width: 90%; /* You can set this width to whatever suits your needs */
+    margin: 0 auto;
 }
 .videoWrapper video {
     background-color: white;
      position: absolute;
-     top: 10;
+     padding-bottom: 1em;
+     top: 10em;
      left: 0;
      width: 100%;
      height: 100%;
@@ -224,7 +230,7 @@ a {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
-  padding-top: 1%;
+  padding-top: 5%;
   align-items: center;
   justify-content: center;
 }
@@ -272,90 +278,11 @@ p {
       line-height: .5rem}
 }
 
-.shell {
-  background-color: white;
-  float: left;
-  height: 10rem;
-  width: 56%;
-}
-
-/* quick facts */
-.quickfacts_container{
-  display: flex;
-  margin-top: 2.5em;
-  margin-left: auto;
-  margin-right: auto;
-  grid-area: quickfacts_container;
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 100%;
-}
-
-.likes {
-  background-color: #5AB9EA;
-  font-size: 1.4em;
-  font-weight: 400;
-  display: inline-block;
-  text-align: left;
-  padding-left: 3%;
-  margin-right: 3%;
-  width: 60%;
-  box-shadow: 0 4px 4px -3px #232323;
-  -moz-box-shadow: 0 4px 4px -3px #232323;
-  -webkit-box-shadow: 0 4px 4px -3px #232323;
-}
-
-.dislikes{
-  background-color: #5AB9EA;
-  font-size: 1.4em;
-  font-weight: 400;
-  display: inline-block;
-  text-align: left;
-  padding-left: 3%;
-  margin-left: 3%;
-  width: 60%;
-  box-shadow: 0 4px 4px -3px #232323;
-  -moz-box-shadow: 0 4px 4px -3px #232323;
-  -webkit-box-shadow: 0 4px 4px -3px #232323;
-}
-.likes img{
-  padding-right: 15%;
-}
-.dislikes img{
-  padding-right: 15%
-}
-@media (max-width: 700px) {
-  .grid{
-    grid-template-areas:
-    'likes'
-    'dislikes';
-  }
-}
-@media (max-width: 700px){
-  .likes img, .dislikes img{
-    text: .5em;
-    padding-right: 5%;
-    width: 15px;
-  }
-}
-h3{
-  font-family: 'Titillium Web', sans-serif;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: 600;
-  width: 100%;
-}
 /* project section */
 .projects{
   background-color: #5AB9EA;
   display: grid;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  grid-area: projects;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 15em;
   padding-bottom: 1%;
   width: 100%;
   box-shadow: 0 4px 4px -3px #232323;
@@ -363,10 +290,15 @@ h3{
   -webkit-box-shadow: 0 4px 4px -3px #232323;
 }
 
+.projects1{
+  height: 275px;
+}
+
 /* About Section CSS */
 
 /* Responsive IMG CSS */
 .illustration img {
+    padding-top: 8em;
     width: 100%;
     display: block;
 }
@@ -385,7 +317,7 @@ h6{
   font-weight: 600;
 }
 .about_container{
-  background-color: #B4B4B4;
+  background-color: white;
 }
 
 .about_row{
@@ -400,7 +332,7 @@ padding-top: 3%;
   flex: 50%;
   font-weight: 1.4em;
   width: 90%;
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
 .flex_bio_container{
@@ -431,14 +363,15 @@ columns stack on top of each other instead of next to each other */
     width: 35%;
     display: block;
     float: left;
-    padding-top: 2em;
+    padding-top: 11em;
     padding-left: 20px;
 }
 .resume_container {
-  background-color: #B4B4B4;
+  padding-top: 7em;
+  background-color: white;
 }
 .resume_column {
-  background-color: #B4B4B4;
+  background-color: #white;
   padding: 20px;
   flex: 50%;
   font-weight: 1.4em;
@@ -504,16 +437,21 @@ columns stack on top of each other instead of next to each other */
     font-size: 1em;
   }
 }
+
 /* Contact Form Gradient */
 .container_contact {
-	margin: 0;
-	width: 100%;
-	height: 150vh;
+	height: 100vh;
 	color: #fff;
-	background: linear-gradient(-45deg, #B4B4B4, #bbbcbd, #7494A5, #504f51);
+  padding-top: 15em;
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
-}
+  max-width: 400px;
+  background-color: #5ab9ea;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  }
+
 
 @keyframes gradientBG {
 	0% {
@@ -543,51 +481,45 @@ columns stack on top of each other instead of next to each other */
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 12px;
-  font-weight: bolder;
   line-height: 30px;
-  color: White;
-  background: #white;
+  color: #777;
+  background: #5ab9ea;
 }
 
-.container_submit {
-  max-width: 400px;
-  width: 100%;
-  height: 0;
-  margin: 0 auto;
-  display: block;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-}
+
 
 #contact input[type="text"],
-#contact input[type="email"],,
+#contact input[type="email"],
+#contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px 'Titillium Web', sans-serif;
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-  background: #504f51;
+  background: #F9F9F9;
   padding: 25px;
-  margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
   display: block;
   font-size: 30px;
-  font-weight: Bold;
+  font-weight: 300;
+  color: #5AB9EA;
   margin-bottom: 10px;
 }
 
 #contact h4 {
   margin: 5px 0 15px;
+  color: #5AB9EA;
   display: block;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 fieldset {
@@ -600,6 +532,7 @@ fieldset {
 
 #contact input[type="text"],
 #contact input[type="email"],
+#contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
   width: 100%;
@@ -611,6 +544,7 @@ fieldset {
 
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
@@ -629,12 +563,11 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #5AB9EA;
+  background: #FA6666;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
-  font-weight: 500;
 }
 
 #contact button[type="submit"]:hover {
@@ -646,6 +579,10 @@ fieldset {
 
 #contact button[type="submit"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
 }
 
 #contact input:focus,
