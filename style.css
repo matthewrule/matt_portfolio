@@ -438,13 +438,6 @@ columns stack on top of each other instead of next to each other */
   width: 100%;
 }
 }
-@media (max-width: 600px){
-  .flex_resume_container {
-    display: block;
-    padding: 1%;
-    font-size: 1em;
-  }
-}
 
 /* Contact Form Gradient */
 .container_contact {
@@ -624,16 +617,18 @@ fieldset {
 .contact_quote h3{
   color: #5AB9EA;
   display: inline-block;
-  font-size: 1.4em;
+  font-size: 1.5em;
+  font-weight: bold;
   text-align: center;
   width: 100%;
 }
 .contact_quote span {
   color: #5AB9EA;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
   text-align: center;
+  padding-bottom: 1%;
   width: 50%;
 }
 .social_media {
@@ -648,7 +643,7 @@ fieldset {
   display: inline-block;
   font-size: 1em;
   font-weight: 500;
-  padding-top: 3%;
+  padding-top: 4%;
   text-align: center;
   width: 100%;
 }
