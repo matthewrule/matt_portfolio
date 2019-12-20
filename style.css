@@ -175,11 +175,11 @@ a {
 /* logo component */
 
 .logo_mr{
-  display: flex;
   float: left;
-  height: 50%;
+  height: auto;
   margin-left: 25px;
   margin-top: 15px;
+  padding-top: 1em;
 
 }
 
@@ -318,6 +318,8 @@ a {
   width: 70%;
   margin: 0 auto;
 }
+
+/*
 .project1_info button{
   border: none;
   display: inline-block;
@@ -326,6 +328,8 @@ a {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   width: 30%;
 }
+*/
+
 .project1_img_container{
   display: inline;
   float: left;
