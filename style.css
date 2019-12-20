@@ -19,14 +19,9 @@ body{
   display: block;
 }
 
-@media (max-width: 767px) {
-	body {font-size: 16px;
-    }
-}
-
 .index_container{
   background-color: white;
-  height:auto;
+  height: auto;
   width: 100%;
 }
 
@@ -47,7 +42,7 @@ a {
 
 .header {
   font-weight: bolder;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 3px 3px 12px 0 rgba(0,0,0,.3);
   position: fixed;
   width: 100%;
@@ -59,7 +54,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: scroll;
-  background-color: #fff;
+  background-color: white;
 }
 
 .header li a {
@@ -236,7 +231,7 @@ a {
   margin: 0;
   background: rgba(0,0,0,0);
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;right: 0; bottom: 0; left: 0;
   display: flex;
   padding-top: 5%;
   align-items: center;
@@ -269,78 +264,75 @@ a {
   width: 100%;
 }
 
-@media screen and (max-width: 865px) and (min-width:375px) {
-	.overlay-desc h1,.overlay-desc h2{
-    font-size: .5em;
-  }
-}
 
-p {
-  color: Black;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.7rem;
-  font-weight: 300;
-  line-height: 1.7rem;
-  padding-left: 5%;
-  padding-right: 15%;
-  width: 100%;
-}
-
-@media (max-width: 767px) {
-	h2 { font-size: .5em;
-      line-height: .5rem}
-}
 
 /* project section */
-.projects{
+.projects_container{
   background-color: #5AB9EA;
-  display: block;
-  margin-top: 10px;
-  padding-top: 2em;
-  padding-bottom: 1%;
-  position: grid;
+  width: 100%;
+  padding-top: 4em;
+  display: inline;
+  float: left;
   width: 100%;
   box-shadow: 0 4px 4px -3px #232323;
   -moz-box-shadow: 0 4px 4px -3px #232323;
   -webkit-box-shadow: 0 4px 4px -3px #232323;
 }
-
-.projects h2 {
-  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
-  color: White;
-  padding-top: 5%;
-  padding-left: 5%;
-  display: inline-block;
-  text-align: left;
-  font-size: 2.7em;
+.project1_info{
+  padding-top: 1em;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 49%;
 }
-
-.projects h4 {
-  display: block;
-  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
-  text-align: left;
-  color: White;
-  font-size: 1.8em;
-  padding-left: 5%;
-}
-.projects1{
-  display: inline-block;
-  width: 100%;
-}
-
-.project1_images{
-  display: inline-block;
-  text-align: right;
-  padding-right: 10%;
-  letter-spacing: 25px;
-  width: 100%;
+.project1_info img{
   height: auto;
 }
-@media screen and (max-width: 865px) {
-	.projects h2{font-size: 1.1em}
-  .projects h4{ font-size: .8em;
-  }
+
+.project1_info h2 {
+  color: White;
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2.7em;
+  width: 100%;
 }
+
+.project1_info h4 {
+  color: White;
+  display: flex;
+  flex-direction: column;
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-bottom: .5em;
+  font-size: 1.8em;
+}
+.project1_info p {
+  color: white;
+  text-align: center;
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  width: 70%;
+  margin: 0 auto;
+}
+.project1_info button{
+  border: none;
+  display: inline-block;
+  background-color: #FA6666;
+  padding: 14px 40px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width: 30%;
+}
+.project1_img_container{
+  display: inline;
+  float: left;
+  width: 49%;
+  height: auto;
+}
+
 /* WORK SECTION */
 
 .work_container{
@@ -445,6 +437,7 @@ columns stack on top of each other instead of next to each other */
   align-items: flex-start;
 }
 .flex_resume_container h2{
+  color: black;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
@@ -456,6 +449,7 @@ columns stack on top of each other instead of next to each other */
 }
 
 .flex_resume_container p {
+  color: black;
   display: flex;
   width: 100%;
   font-weight: 500;
@@ -469,7 +463,7 @@ columns stack on top of each other instead of next to each other */
 .flex_resume_container span {
   display: inline-block;
   width: 100%;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.1em;
   margin: 0;
 }
@@ -489,7 +483,7 @@ columns stack on top of each other instead of next to each other */
   color: black;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 100;
   width: 100%;
 }
 }
@@ -683,4 +677,21 @@ fieldset {
   padding-top: 4%;
   text-align: center;
   width: 100%;
+}
+
+/* MEDIA QUERY THAT EFFECTS OVERLAY DESC */
+@media screen and (max-width: 865px) {
+	.overlay-desc h1 {
+    font-size: 1.48em;
+    padding-top: 10em;
+    text-shadow: none;
+  }
+
+@media screen and (max-width: 865px) {
+  .overlay-desc h2{
+    font-size: .8em;
+    font-weight: bold;
+    padding-top: 20em;
+    text-shadow: none;
+  }
 }
