@@ -348,6 +348,8 @@ a {
   width: 49%;
   height: auto;
   padding: auto;
+  transform: rotate());
+
 }
 @media (max-width: 767px){
   .project1_info {
