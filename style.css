@@ -179,7 +179,6 @@ a {
   height: auto;
   margin-left: 25px;
   margin-top: 15px;
-  padding-top: 1em;
 
 }
 
@@ -360,9 +359,10 @@ a {
 /* WORK SECTION */
 
 .work_container{
-  padding-top: 12em;
+  padding-top: 10em;
 }
 .work_container h1 {
+  padding-top: 2em;
   font-size: 2em;
   font-style: "Titillium Web", sans-serif;
 }
