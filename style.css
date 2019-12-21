@@ -361,7 +361,52 @@ a {
 /* WORK SECTION */
 
 .work_container{
-  padding-top: 10em;
+  padding-top: 8em;
+}
+
+.intro_project {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  background: linear-gradient(-45deg, #510056, #8F08B9, #C68400, #FBA905);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.animated_intro {
+  background: #330037;
+  color: #FBA905;
+  display: inline-block;
+  float: center;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 1em;
+  background-color: white;
+}
+ .intro_project p{
+   background-color: #330037;
+ }
+
+.intro_project strong {
+
+}
+.intro_project img {
+  padding-top: 1em;
 }
 .work_container h1 {
   padding-top: 2em;
