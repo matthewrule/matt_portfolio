@@ -348,10 +348,9 @@ a {
   width: 49%;
   height: auto;
   padding: auto;
-  transform: rotate());
-
 }
-@media (max-width: 767px){
+
+media (max-width: 767px){
   .project1_info {
     display: block;
     padding: 0 50px 0;
@@ -366,6 +365,7 @@ a {
 
 .intro_project {
   display: inline;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   float: left;
   text-align: center;
   width: 100%;
@@ -397,15 +397,28 @@ a {
   text-align: center;
   width: 30%;
   margin-bottom: 1em;
-  background-color: white;
+  background-color: #330037;
 }
- .intro_project p{
-   background-color: #330037;
- }
 
-.intro_project strong {
-
+.animated_intro strong {
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-top: 1em;
 }
+
+.animated_intro i {
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.animated_intro p {
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
 .intro_project img {
   padding-top: 1em;
 }
@@ -413,6 +426,77 @@ a {
   padding-top: 2em;
   font-size: 2em;
   font-style: "Titillium Web", sans-serif;
+}
+
+.groups_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  background-color: #330037;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background:#FBA905;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+.groups h3 {
+  color: #FBA905;
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-top: 1em;
+}
+.groups li {
+  color: #FBA905;
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.design_roles {
+  background-color: #330037;
+  width: 25%;
+  text-align: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.deliverables {
+  background-color: #330037;
+  width: 25%;
+  text-align: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.specifications {
+  background-color: #330037;
+  width: 25%;
+  text-align: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.specifications span {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+hr {
+  color: #FBA905;
+  background-color: #FBA905;
+  border: none;
+  width: 30%;
+  margin: 0 35% 0 35%;
+  height: 5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
 }
 
 /* About Section CSS */
