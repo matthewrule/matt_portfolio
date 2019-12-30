@@ -369,6 +369,7 @@ media (max-width: 767px){
 }
 
 .project2 {
+  background-color: #FBA905;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -401,7 +402,7 @@ media (max-width: 767px){
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.8em;
   padding-top: 1em;
 }
 
