@@ -619,6 +619,20 @@ hr {
   text-align: center;
   padding-top: 1em;
 }
+.swot_img img{
+  transition: transform 0.5s ease;
+}
+.swot_img img:hover {
+  -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
+}
+.survey_graphs img {
+  transition: transform 0.5s ease;
+}
+.survey_graphs img:hover {
+  -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
+}
 .icon_swot {
   display: flex;
   flex-wrap: wrap;
@@ -629,7 +643,6 @@ hr {
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .survey_analysis li {
   width: 100%;
