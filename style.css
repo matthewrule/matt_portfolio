@@ -615,6 +615,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: auto;
   text-align: center;
   padding-top: 1em;
 }
@@ -624,6 +625,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: auto;
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
@@ -659,11 +661,33 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: auto;
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 1em;
   padding-bottom: 2em;
+}
+@media (max-width: 48em) {
+  .animated_intro {
+    display: inline-block;
+    width: 100%;
+  }
+  .survey_graphs {
+    display: inline-block;
+  }
+  .swot_img {
+    display: inline-block;
+  }
+  .icon_swot{
+    display: inline-block;
+  }
+  .groups {
+    display: inline-block;
+  }
+  .design_roles, .deliverables, .specifications{
+    width: 100%;
+  }
 }
 /* About Section CSS */
 
