@@ -724,8 +724,8 @@ hr {
   transition: transform 0.5s ease;
 }
 .personas_cloudnebula img:hover {
-  -webkit-transform:scale(2); /* or some other value */
-    transform:scale(2);
+  -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
 }
 @media (max-width: 48em) {
   .animated_intro {
@@ -746,6 +746,11 @@ hr {
   }
   .design_roles, .deliverables, .specifications{
     width: 100%;
+  }
+  .persona1, .persona2{
+    display: inline-block;
+    width: 100%;
+    height: auto;
   }
 }
 /* About Section CSS */
