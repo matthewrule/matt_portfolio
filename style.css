@@ -197,7 +197,6 @@ a {
 
 .videoWrapper {
     background-color: white;
-    grid-area: videoWrapper;
     display: grid;
     padding-top: 20px;
     padding: 4em 0;
@@ -213,7 +212,7 @@ a {
   display: block;
     background-color: white;
      position: absolute;
-     padding-bottom: 1em;
+     padding-bottom: 2em;
      top: 10em;
      left: 0;
      width: 100%;
@@ -267,7 +266,8 @@ a {
 .projects_container{
   background-color: #5AB9EA;
   width: 100%;
-  padding-top: 4em;
+  padding-top: 2em;
+  margin-top: 4em;
   display: inline;
   float: left;
   width: 100%;
@@ -779,6 +779,7 @@ hr {
   justify-content:space-around;
   text-align: center;
   width: 100%;
+  height: auto;
 }
 .cn_wireframes h2 {
   background-color: #330037;
@@ -883,6 +884,7 @@ hr {
   }
   .ia_cloudnebula img {
     max-width: 75%;
+    height: auto;
   }
   .HiFi_clickable {
     display: inline-block;
@@ -893,7 +895,18 @@ hr {
     display: block;
     width: 100%;
     padding-bottom: 1em;
+}
+  .logo_design_cn {
+    display:inline-block;
+    width: 90%;
+    height: auto;
   }
+  .cn_wireframes {
+    display: inline-block;
+    width: 90%;
+    height: auto;
+  }
+
   }
 /* About Section CSS */
 
