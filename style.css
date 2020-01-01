@@ -355,14 +355,13 @@ a {
   padding: auto;
 }
 
-
-
 .project2 {
   background-color: #FBA905;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding-top: 2em;
+  padding-bottom: 2em;
   width: 100%;
 }
 
@@ -374,8 +373,8 @@ a {
   float: right;
   margin-bottom: 1em;
   text-align: center;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 10%;
+  height: auto;
   width: 100%;
 }
 .project2_info h2{
