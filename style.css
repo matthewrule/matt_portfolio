@@ -412,6 +412,7 @@ a {
   .project1_info{
     display: inline-block;
     width: 49%;
+    height: auto;
   }
   .project2 {
     display: inline-block;
