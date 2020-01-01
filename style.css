@@ -404,14 +404,23 @@ a {
   .project1 {
     display: inline-block;
     padding: 0em 50px 0;
-    text-align: center;
+    justify-content:center;
+    width: 75%;
   }
   .project1_info{
     display: inline-block;
-    text-align: center;
+    width: 49%;
   }
   .project2 {
     display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+  .project2_info p{
+    display: inline-block;
+    width: 100%;
+    height: auto;
   }
 }
 
