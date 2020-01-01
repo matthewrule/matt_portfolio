@@ -424,8 +424,9 @@ a {
     width: 100%;
   }
   .project2_info img {
+    width: 90%;
     height: auto;
-    width: 100%;
+    padding-top: 1em;
   }
 }
 
