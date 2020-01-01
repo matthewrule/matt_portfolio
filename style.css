@@ -424,6 +424,9 @@ a {
     width: 100%;
     height: auto;
   }
+  .project2 img {
+    height: auto;
+  }
 }
 
 /* WORK SECTION */
