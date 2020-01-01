@@ -423,6 +423,7 @@ media (max-width: 767px){
   font-style: "Titillium", Helvetica, Arial, sans-serif;
   padding-top: 1em;
   text-align: center;
+  padding-bottom: 1em;
   width: 100%;
 }
 .work_container p {
@@ -706,7 +707,6 @@ hr {
   height: auto;
   text-align: center;
   padding-top: 2em;
-  padding-bottom: 2em;
 }
 .persona2{
   background-color: #330037;
@@ -718,7 +718,6 @@ hr {
   height: auto;
   text-align: center;
   padding-top: 2em;
-  padding-bottom: 2em;
 }
 .personas_cloudnebula img {
   transition: transform 0.5s ease;
@@ -739,10 +738,35 @@ hr {
   padding-top: 2em;
 }
 .user_stories p {
-  width: 50%;
+  width: 100%;
   text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
 
 }
+
+.ia_cloudnebula{
+  background-color: #330037;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding-top: 2em;
+}
+.ia_cloudnebula img{
+  padding-bottom: 1em;
+  padding-bottom: 1em;
+}
+.ia_cloudnebula p {
+  width: 100%;
+  text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
 @media (max-width: 48em) {
   .animated_intro {
     display: inline-block;
@@ -765,10 +789,22 @@ hr {
   }
   .persona1, .persona2{
     display: inline-block;
+    width: 90%;
+    height: auto;
+  }
+  .user_stories {
+    display:inline-block;
+    text-align: center;
     width: 100%;
     height: auto;
   }
-}
+  .responsive{ /* USER STORIE AND IA SKETCH PHOTO */
+    max-width: 75%;
+  }
+  .ia_cloudnebula img {
+    max-width: 75%;
+  }
+  }
 /* About Section CSS */
 
 /* Responsive IMG CSS */
