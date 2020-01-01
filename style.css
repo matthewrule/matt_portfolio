@@ -372,6 +372,8 @@ a {
   justify-content: space-around;
   float: right;
   margin-bottom: 1em;
+  top: 50%;
+  left:50%;
   text-align: center;
   padding-right: 10%;
   height: auto;
