@@ -894,11 +894,12 @@ hr {
     width: 100%;
     height: auto;
   }
-  .responsive{ /* USER STORIE AND IA SKETCH PHOTO */
-    max-width: 75%;
-  }
   .ia_cloudnebula img {
     display: inline-block;
+    max-width: 75%;
+    height: auto;
+  }
+  .responsive{ /* USER STORIES AND IA SKETCH PHOTO */
     max-width: 75%;
     height: auto;
   }
