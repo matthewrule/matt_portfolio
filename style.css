@@ -736,13 +736,13 @@ hr {
   height: auto;
   width: 100%;
   padding-top: 2em;
+  padding-bottom: 1em;
 }
 .user_stories p {
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding-right: 20%;
   padding-left: 20%;
-
 }
 
 .ia_cloudnebula{
@@ -762,9 +762,83 @@ hr {
 }
 .ia_cloudnebula p {
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding-right: 20%;
   padding-left: 20%;
+}
+.logo_design_cn{
+  background-color: #330037;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+  text-align: center;
+  width: 100%;
+}
+.cn_wireframes h2 {
+  background-color: #330037;
+  font-size: 1.8em;
+  color:#FBA905;
+  font-weight: normal;
+  font-style: "Roboto", Helvetica, Arial, sans-serif;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-right: 49%;
+  text-align:center;
+  width: 100%;
+}
+
+.preference_testing_CN p{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+}
+.preference_testing_CN a {
+  margin-bottom: 1em;
+}
+.HiFi_clickable{
+  background-color:#FBA905;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.HiFi_clickable h1 {
+  background-color:#FBA905 ;
+  font-size: 1.8em;
+  color:#330037;
+  font-weight: normal;
+  font-style: "Titillium", Helvetica, Arial, sans-serif;
+  padding-top: 1em;
+  text-align: center;
+  padding-bottom: 1em;
+  width: 100%;
+}
+.HiFi_clickable p {
+  color:#330037;
+  width: 100%;
+  text-align: left;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 1.6em;
+}
+.hifi_button {
+  margin: 0 auto;
+  float: left;
+}
+.cn_conclusion {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 @media (max-width: 48em) {
@@ -803,6 +877,11 @@ hr {
   }
   .ia_cloudnebula img {
     max-width: 75%;
+  }
+  .HiFi_clickable {
+    display: inline-block;
+    width: 100%;
+    height: auto;
   }
   }
 /* About Section CSS */
