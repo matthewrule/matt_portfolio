@@ -828,6 +828,7 @@ hr {
   color:#330037;
   width: 100%;
   text-align: left;
+  padding-top: 1em;
   padding-right: 10%;
   padding-left: 10%;
   font-size: 1.6em;
@@ -882,6 +883,11 @@ hr {
     display: inline-block;
     width: 100%;
     height: auto;
+  }
+  .hifi_button{
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
   }
   }
 /* About Section CSS */
