@@ -355,61 +355,67 @@ a {
   padding: auto;
 }
 
-media (max-width: 767px){
-  .project1_info {
-    display: block;
-    padding: 0 50px 0;
-    text-align: center;
-  }
-}
+
 
 .project2 {
   background-color: #FBA905;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-top: 2em;
   width: 100%;
 }
 
 .project2_info {
-  padding-top: 1em;
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
   float: right;
+  margin-bottom: 1em;
   text-align: center;
   padding-right: 5%;
   padding-left: 5%;
-  width: 49%;
+  width: 100%;
 }
 .project2_info h2{
   color: White;
   font-weight: bolder;
   font-style: "Titillium Web", Helvetica, Arial, sans-serif;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
+  padding-left: 20%;
   font-size: 2.7em;
-  padding-top: 1em;
+  width:100%;
 }
 .project2_info p{
   color: White;
   font-weight: bolder;
   font-style: "Titillium Web", Helvetica, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-around;
   text-align: center;
+  width: 49%;
   font-size: 1.8em;
   padding-top: 1em;
 }
-
-.busybus_img {
-  display: inline;
-  margin-top: 1em;
-  float: left;
-  letter-spacing: 2em;
-  width: 49%;
-  height: auto;
-  padding: auto;
+@media (max-width: 48em){
+  .project1 {
+    display: inline-block;
+    padding: 0em 50px 0;
+    text-align: center;
+  }
+  .project1_info{
+    display: inline-block;
+    text-align: center;
+  }
+  .project2 {
+    display: inline-block;
+  }
 }
+
 /* WORK SECTION */
 
 .work_container{
