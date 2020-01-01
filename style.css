@@ -727,6 +727,22 @@ hr {
   -webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
 }
+.user_stories{
+  background-color: #330037;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  padding-top: 2em;
+}
+.user_stories p {
+  width: 50%;
+  text-align: center;
+
+}
 @media (max-width: 48em) {
   .animated_intro {
     display: inline-block;
