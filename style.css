@@ -275,11 +275,8 @@ a {
 .project1 {
   background-color: #5AB9EA;
   display: inline;
-  float: left;
+  float: center;
   width: 100%;
-  box-shadow: 0 4px 4px -3px #232323;
-  -moz-box-shadow: 0 4px 4px -3px #232323;
-  -webkit-box-shadow: 0 4px 4px -3px #232323;
 }
 
 .project1_info{
@@ -287,10 +284,13 @@ a {
   display: inline;
   float: left;
   text-align: center;
+  justify-content: space-between;
   width: 49%;
 }
 .project1_info img{
   height: auto;
+  width: 49%;
+  justify-content: flex-end;
 }
 
 .project1_info h2 {
