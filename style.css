@@ -416,13 +416,11 @@ a {
   .project2 {
     display: inline-block;
     width: 100%;
-    height: auto;
   }
 
   .project2_info p{
     display: inline-block;
     width: 100%;
-    height: auto;
   }
   .project2_info img {
     height: auto;
