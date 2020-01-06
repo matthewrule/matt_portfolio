@@ -1099,6 +1099,7 @@ columns stack on top of each other instead of next to each other */
   color: #777;
   background: #f4f4f4;;
 }
+
 .container_contact {
   background: #f4f4f4;
   padding-top: 5em;
@@ -1229,6 +1230,8 @@ fieldset {
 
 /* Footer Icon */
 .social_media_container{
+  background: white;
+  border-top: 1px solid #f4f4f4;
   text-align: center;
   width: 100%;
 }
@@ -1258,6 +1261,7 @@ fieldset {
   width: 100%;
 }
 .copyright {
+  background: white;
   color: #5AB9EA;
   display: inline-block;
   font-size: 1em;
