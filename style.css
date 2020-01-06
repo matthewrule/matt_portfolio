@@ -1097,10 +1097,10 @@ columns stack on top of each other instead of next to each other */
   font-size: 12px;
   line-height: 30px;
   color: #777;
-  background: White;
+  background: #f4f4f4;;
 }
 .container_contact {
-	color: #5ab9ea;
+  background: #f4f4f4;
   padding-top: 5em;
   max-width: 400px;
   width: 100%;
