@@ -410,6 +410,7 @@ a {
     width: 100%;
   }
   .cn_photos{
+    margin-top: 1em;
     display:inline-block;
     height: auto;
     width: 100%;
