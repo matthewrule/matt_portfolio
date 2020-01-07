@@ -192,7 +192,7 @@ a {
 
 /* Hero Video */
 .video{
-  padding-top: 30px;
+  padding-top: 3em;
 }
 
 .videoWrapper {
@@ -206,6 +206,7 @@ a {
     height: 0;
     max-​width: 90%; /* You can set this width to whatever suits your needs */
     margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 .videoWrapper video {
@@ -215,6 +216,7 @@ a {
   left: 0;
   width: 100%;
   height: 85%;
+  padding-bottom: 3em;
   object-fit: contain;
 }
 
@@ -1228,13 +1230,14 @@ fieldset {
 
 /* Footer Icon */
 .social_media_container{
-  background: #f4f4f4;
-  border-top: 1px solid #f4f4f4;
+  background: white;
+
   text-align: center;
   width: 100%;
 }
 .contact_quote {
-  background: white;
+  background: white
+  border-top: 1px solid #f4f4f4;
 }
 .contact_quote h3{
   color: #5AB9EA;
