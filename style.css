@@ -196,7 +196,7 @@ a {
 }
 
 .videoWrapper {
-    background-color: white;
+    background: white;
     display: grid;
     padding-top: 20px;
     padding: 4em 0;
@@ -210,14 +210,12 @@ a {
 
 .videoWrapper video {
   display: block;
-    background-color: white;
-     position: absolute;
-     padding-bottom: 2em;
-     top: 10em;
-     left: 0;
-     width: 100%;
-     height: 85%;
-     object-fit: contain;
+  position: absolute;
+  top: 10em;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 300px) {
@@ -954,7 +952,7 @@ h6{
   font-weight: 600;
 }
 .about_container{
-  background-color: white;
+  background-color: #f4f4f4;
 }
 
 .about_row{
@@ -1008,7 +1006,7 @@ columns stack on top of each other instead of next to each other */
 }
 .resume_container {
   padding-top: 7em;
-  background-color: white;
+  background-color: #f4f4f4;
 }
 .resume_column {
   background-color: #white;
@@ -1230,10 +1228,13 @@ fieldset {
 
 /* Footer Icon */
 .social_media_container{
-  background: white;
+  background: #f4f4f4;
   border-top: 1px solid #f4f4f4;
   text-align: center;
   width: 100%;
+}
+.contact_quote {
+  background: white;
 }
 .contact_quote h3{
   color: #5AB9EA;
