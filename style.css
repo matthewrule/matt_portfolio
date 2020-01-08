@@ -499,18 +499,22 @@ a {
   font-size: 2.2em;
   font-weight: bold;
   padding-top: 1em;
+  text-align: center;
 }
 
 .animated_intro i {
   font-style: "Titillium Web", Helvetica, Arial, sans-serif;
   font-size: 2em;
   font-weight: 300;
+  text-align: center;
 }
 
 .animated_intro p {
   font-style: "Titillium Web", Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   font-weight: 300;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .intro_project img {
