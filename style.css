@@ -519,6 +519,7 @@ a {
 
 .intro_project img {
   padding-top: 1em;
+  text-align: center;
 }
 
 .groups_container {
@@ -1261,8 +1262,9 @@ fieldset {
   width: 50%;
 }
 .social_media {
-  background-color: white;
+  background-color: none;
   text-align: center;
+  letter-spacing: 1em;
   position: absolute;
   margin: 0 auto;
   width: 100%;
