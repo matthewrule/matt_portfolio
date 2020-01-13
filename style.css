@@ -400,6 +400,12 @@ a {
   padding-top: 1em;
 }
 @media (max-width: 48em){
+  .videoWrapper video {
+    display: inline-block;
+    padding-bottom: 3em;
+  }
+}
+@media (max-width: 48em){
   .project1 {
     display: inline-block;
     text-align: center;
