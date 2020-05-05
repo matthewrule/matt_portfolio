@@ -10,12 +10,6 @@ html{
 
 body{
   background-color: white;
-  display: grid;
-  grid-template-areas:
-  "topnav"
-  "videoWrapper"
-  "quickfacts_container"
-  "projects";
   display: block;
 }
 
@@ -238,7 +232,6 @@ a {
 /* Hero Video Text Overlay */
 .overlay-desc h1 {
   color: White;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   font-family: 'League Spartan', sans-serif;
   font-size: 3.4em;
   font-weight: bold;
@@ -251,7 +244,6 @@ a {
 .overlay-desc h2 {
   text-align: left;
   color: White;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.7rem;
   font-weight: 600;
