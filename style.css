@@ -1064,7 +1064,6 @@ columns stack on top of each other instead of next to each other */
   width: 100%;
   padding-top: .5em;
   padding-bottom: .5em;
-  text-decoration: underline;
 }
 
 .flex_resume_container i {
@@ -1074,10 +1073,9 @@ columns stack on top of each other instead of next to each other */
   font-weight: 100;
   width: 100%;
 }
+
 }
-b {
-  font-weight: bold;
-}
+
 /* Contact Form Gradient */
 
 /* CONTACT FORM CSS */
