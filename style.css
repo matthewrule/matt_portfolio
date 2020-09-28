@@ -492,9 +492,8 @@ box-shadow:5px 5px 5px rgba(0,0,0,0.3);
     padding-right: 40%;
   }
 
-  --
   .project4 {
-    background-color: #999999;
+    background-color: white;
     display: inline-block;
     flex-wrap: wrap;
     flex-direction: row;
@@ -577,6 +576,37 @@ box-shadow:5px 5px 5px rgba(0,0,0,0.3);
       padding-left: 40%;
       padding-right: 40%;
     }
+    .company_logos {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      float: right;
+      margin-bottom: 1em;
+      top: 50%;
+      left:50%;
+      text-align: center;
+      height: auto;
+      width: 100%;
+    }
+    .company_logos h2{
+      color: #222222;
+      font-weight: 300 ;
+      font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+      display: inline-block;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 2em;
+      font-size: 2.7em;
+      width:75%;
+    }
+    .company_logos1 img {
+        display: inline-block;
+        margin: auto;
+        padding: 2em;
+        width: 100%;
+      }
+
 @media (max-width: 48em){
   .videoWrapper video {
     display: inline-block;
