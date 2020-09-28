@@ -255,9 +255,8 @@ a {
 
 /* project section */
 .projects_container{
-  background-color: #5AB9EA;
   width: 100%;
-  padding-top: 2em;
+  border-top: 1em;
   margin-top: 4em;
   display: inline-block;
   float: left;
@@ -268,9 +267,14 @@ a {
   display: flex;
   float: center;
   width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 1em;
+  border-bottom: 1em;
 }
 
 .project1_info{
+  border: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -347,6 +351,7 @@ a {
 
 .project2 {
   background-color: #FBA905;
+  border:1em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -391,6 +396,187 @@ a {
   font-size: 1.8em;
   padding-top: 1em;
 }
+.project3 {
+  background-color: #999999;
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-bottom:;
+  width: 100%;
+}
+
+.project3_info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  float: right;
+  margin-bottom: 1em;
+  top: 50%;
+  left:50%;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+.project3_info h2{
+  color: White;
+  font-weight: bolder;
+  font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  padding-left:;
+  font-size: 2.7em;
+  width:75%;
+}
+.project3_info p{
+  color: White;
+  font-weight: bolder;
+  display: inline-block;
+  justify-content: space-around;
+  text-align: center;
+  width: 75%;
+  font-size: 1.8em;
+  padding-top: 1em;
+}
+
+.project3_info img {
+    display: flex;
+    border-radius: 2em;
+
+    margin-left: 100%;
+    margin-right: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 100%;
+    -moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+  }
+  .project3_info h4 {
+    color: White;
+    display: flex;
+    flex-direction: column;
+    font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-bottom: .5em;
+    font-size: 1.8em;
+  }
+  .section__btn1 {
+    color: white;
+    border: 5px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #1470af;
+    padding: 15px 15px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+  }
+
+  .section__btn1:hover{
+    color: #1470af;
+    background: white;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .section_action1 {
+    padding-top: 2em;
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+
+  --
+  .project4 {
+    background-color: #999999;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom:;
+    width: 100%;
+  }
+
+  .project4_info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    margin-bottom: 1em;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    height: auto;
+    width: 100%;
+  }
+  .project4_info h2{
+    color: #141414;
+    font-weight: bolder;
+    font-style: "Titillium Web", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    padding-left:;
+    font-size: 2.7em;
+    width:75%;
+  }
+  .project4_info p{
+    color: #121212;
+    font-weight: 300;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    width: 75%;
+    font-size: 1.8em;
+    padding-top: 1em;
+  }
+
+  .project4_info img {
+      display: flex;
+      margin-left: 100%;
+      margin-right: 100%;
+      margin-bottom: 2em;
+      margin-top: 2em;
+      width: 100%;
+      -moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+  box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+    }
+    .section__btn2 {
+      color: white;
+      border: 5px;
+      display: inline-block;
+      margin-left: 20%;
+      margin-right: 20%;
+      background-color: #a6c54c;
+      padding: 15px 15px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      text-decoration: none;
+      text-align: center;
+      width: auto;
+    }
+
+    .section__btn2:hover{
+      color: #1470af;
+      background: white;
+      -webkit-transition: background 0.3s ease-in-out;
+      -moz-transition: background 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .section_action2 {
+      padding-top: 2em;
+      width: 100%;
+      padding-left: 40%;
+      padding-right: 40%;
+    }
 @media (max-width: 48em){
   .videoWrapper video {
     display: inline-block;
