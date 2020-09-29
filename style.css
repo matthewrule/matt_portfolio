@@ -41,7 +41,7 @@ a {
   width: 100%;
   height: auto;
   overflow: hidden;
-  border-bottom: 1px solid #f4f4f4;
+  border-bottom:none;
   z-index: 3;
 }
 
@@ -56,7 +56,7 @@ a {
   font-weight: bolder;
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  border-right: none;
   text-decoration: none;
 }
 
@@ -444,16 +444,14 @@ a {
 
 .project3_info img {
     display: flex;
-    border-radius: 2em;
-
     margin-left: 100%;
     margin-right: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
     width: 100%;
-    -moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
--webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow:.1px 5px 2px rgba(0,0,0,0.3);
+-webkit-box-shadow:.1px 5px 2px rgba(0,0,0,0.3);
+box-shadow:.1px 5px 2px rgba(0,0,0,0.3);
   }
   .project3_info h4 {
     color: White;
