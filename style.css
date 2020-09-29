@@ -642,16 +642,13 @@ box-shadow:.1px 5px 2px rgba(0,0,0,0.3);
   }
 }
 .project3_info img {
-  width: 90%;
-  height: auto;
+  width: 80%;
   padding-top: 1em;
 }
 }
 .project4_info img {
-  width: 35%;
-  height: auto;
+  width: 60%;
   padding-top: 1em;
-  border: 2em;
 }
 }
 
